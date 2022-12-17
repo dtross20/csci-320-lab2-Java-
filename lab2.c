@@ -178,7 +178,7 @@ public class SodukuValidator {
 
                 for (int r = col; r < col + 3; r++) {
 
-                    int num = sudoku[i][j];
+                    int num = sudoku[d][r];
 
                     if (num < 1 || num > 9 || validityArray[num - 1]) {
 
@@ -213,7 +213,7 @@ public class SodukuValidator {
 
         System.out.println("The Sudoku Setup is:------>");
 
-        for (int d = 0; d < 9; i++) {
+        for (int d = 0; d < 9; d++) {
 
             for (int r = 0; r < 9; r++) {
 
