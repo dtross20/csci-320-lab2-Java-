@@ -74,9 +74,9 @@ public class SodukuValidator {
 
             int d;
 
-            for (i = 0; d < 9; i++) {
+            for (d = 0; d < 9; d++) {
 
-                int num = sudoku[row][i];
+                int num = sudoku[row][d];
 
                 if (num < 1 || num > 9 || validityArray[num - 1]) {
 
